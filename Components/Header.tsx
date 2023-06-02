@@ -5,6 +5,7 @@ export function Header() {
                <p className='link'> About Me</p>
                <p className='link'> About Me</p>
                <p className='link'> About Me</p>
+               <p> Hello there</p>
 
            </div>
        </header>
