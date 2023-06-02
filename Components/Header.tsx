@@ -1,15 +1,12 @@
 export function Header() {
     return (
-        <>
-        <div>
-            <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Resume & CV</li>
-                <li>Contact</li>
+       <header>
+           <div className='flex-row items-center space-x-3 p-2 pl-2'>
+               <p className='link'> About Me</p>
+               <p className='link'> About Me</p>
+               <p className='link'> About Me</p>
 
-            </ul>
-        </div>
-        </>
+           </div>
+       </header>
     );
 }
